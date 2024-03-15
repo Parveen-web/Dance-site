@@ -1,0 +1,62 @@
+doctype html
+
+html
+    head
+        style
+            include ../static/style.css
+
+    body
+        nav#navbar
+            ul 
+                div#logo
+                    img(src="/static/pngwing.com.png")
+                    
+                li #[a(href="/") Home ]
+                li #[a(href="/") About] 
+                li #[a(href="/") Contact us] 
+                li #[a(href="/") More ]
+        section#introsection
+            | Let's Naccho club 
+        
+        section#missionsection 
+                h2 Our Mission
+                div.card
+                    h2 Kathak
+                    div.card-box
+                        div.card-img
+                            img(src="/static/2.jpg")
+                        div.card-content
+                            p Kathak is one of the eight major forms of Indian classical dance. It is the classical dance form from Uttar Prades The origin of Kathak is traditionally attributed to the traveling bards in ancient northern India known as Kathakars or storytellers   
+                div.card
+                    h2 Freestyle
+                    div.card-box
+                        div.card-img
+                            img(src="/static/1.jpg")
+                        div.card-content
+                            p Freestyle dancing, sometimes referred to as street dancing, is a unique type of dance that is based on improvisation rather than the choreography seen in other dance varieties   
+                div.card
+                    h2 Salsa      
+                    div.card-box
+                        div.card-img
+                            img(src="/static/salsa.jpg")
+                        div.card-content
+                            p Salsa is a latin dance, associated with the music genre of the same name, which was first popularized in the United States in the 1960s in New York City. Salsa is a mixture of Cuban  such as mambo, pachanga and rumba, as well as American dances such as swing and tap   
+                    
+                    
+
+        section#sponsorsection 
+              h2 Our sponsor
+
+              div#sponsor
+                img(src="/static/go.png", alt="sponsor image", class="spimage")
+                img(src="/static/pi.png", alt="sponsor image", class="spimage")
+                img(src="/static/Nokia_logo_PNG9.png", alt="sponsor image", class="spimage")
+                img(src="/static/logo11.png", alt="sponsor image", class="spimage")
+
+
+
+
+        section#footer 
+               | Copyrights @ 2020 Naccho's club        
+        Script
+            include ../static/index.js        
